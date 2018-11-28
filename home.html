@@ -18,12 +18,12 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse text-center justify-content-end text-light mt-md-0 mt-2" id="navbar2SupportedContent">
-        <a class="btn navbar-btn ml-2 btn-link text-white btn-sm">
+        <a class="btn navbar-btn ml-2 btn-link text-white">
           <i class="fa fa-phone mr-1"></i>
           <strong>0800 887 1640</strong>
         </a>
-        <a class="btn navbar-btn ml-2 btn-light text-primary btn-sm"> Fale com um expert</a>
-        <a class="btn navbar-btn ml-2 btn-secondary btn-sm" href="https://www.jn2.com.br/comece-seu-teste-gratis/"> Faça um teste grátis*</a>
+        <a class="btn navbar-btn ml-2 btn-light text-primary"> Fale com um expert</a>
+        <a class="btn navbar-btn ml-2 btn-secondary" href="https://www.jn2.com.br/comece-seu-teste-gratis/"> Faça um teste grátis*</a>
       </div>
     </div>
   </nav>
@@ -46,10 +46,10 @@
   <div class="pt-5 bg-light">
     <div class="container">
       <div class="row animate-in-down">
-        <div class="col-md-3">
+        <!-- <div class="col-md-3">
           <img class="img-fluid" src="assets/img/img-maquininha-rede.png">
-        </div>
-        <div class="col-md-9 text-md-left">
+        </div> -->
+        <div class="col-md-8 mx-auto text-md-left">
           <h2 class="text-secondary"> Contrate uma loja virtual totalmente integrada ao meio de pagamento da Rede e pronta para vender, com taxa especial para vendas à vista ou parceladas em até 12x, através das principais bandeiras do mercado. </h2>
           <img class="img-fluid p-3 border rounded mt-3" src="assets/img/img-bandeiras-rede.jpg" style="max-width: 600px;">
         </div>
@@ -93,10 +93,10 @@
       </div>
       <div class="row animate-in-down">
         <div class="col-md-6 text-md-right px-md-5">
-          <a class="btn btn-primary m-1" href="#">Fale com um expert</a>
-          <strong class="text-dark">ou</strong>
-          <a class="btn m-1 btn-secondary" href="https://www.jn2.com.br/comece-seu-teste-gratis/">Faça um teste grátis*</a>
-          <p class="mt-3"> Teste por 15 dias, sem compromisso. <br>Não precisa de cartão de crédito. </p>
+          <a class="btn btn-primary m-1 btn-lg" href="#">Fale com um expert</a>
+          <strong class="text-muted d-md-inline d-block">ou</strong>
+          <a class="btn m-1 btn-secondary btn-lg" href="https://www.jn2.com.br/comece-seu-teste-gratis/">Faça um teste grátis*</a>
+          <small class="mt-1 d-block"> Teste por 15 dias, sem compromisso. <br>Não precisa de cartão de crédito. </small>
         </div>
         <div class="col-md-6"></div>
       </div>
@@ -106,7 +106,7 @@
     <div class="container">
       <div class="row animate-in-down">
         <div class="col-md-12 text-md-right">
-          <h2 class="mb-4 text-secondary">Recursos oferecidos pelas lojas virtuais JN2</h2>
+          <h2 class="mb-4 px-4 text-secondary">Recursos oferecidos pelas lojas virtuais JN2</h2>
           <div class="row">
               <div class="col col-md-4 mb-4">
               <div class="nav flex-column nav-pills rounded shadow-lg border text-left p-3" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -310,9 +310,11 @@
               <p class="p-2 m-0 border-top">
                 <b>600MB</b> armazenamento</p>
               <p class="p-2 m-0 border-top">
-                <button class="btn btn-sm btn-light text-primary px-2"
+                <button class="btn btn-sm btn-light text-primary px-2 btn-collapse collapsed"
                 data-toggle="collapse" data-target="#extra-info-tropos" aria-expanded="false" aria-controls="collapseExample">
-                Ver mais <i class="fa fa-angle-down ml-2"></i></button>
+                <span class="ver-mais">Ver mais <i class="fa fa-angle-down ml-2"></i></span>
+                <span class="ver-menos">Ver menos <i class="fa fa-angle-up ml-2"></i></span>
+              </button>
               </p>
             </div>
 
@@ -356,9 +358,11 @@
               <p class="p-2 m-0 border-top">
                 <b>1GB</b> armazenamento</p>
                 <p class="p-2 m-0 border-top">
-                    <button class="btn btn-sm btn-light text-primary px-2"
+                    <button class="btn btn-sm btn-light text-primary px-2 btn-collapse collapsed"
                     data-toggle="collapse" data-target="#extra-info-mesos" aria-expanded="false" aria-controls="collapseExample">
-                    Ver mais <i class="fa fa-angle-down ml-2"></i></button>
+                    <span class="ver-mais">Ver mais <i class="fa fa-angle-down ml-2"></i></span>
+                    <span class="ver-menos">Ver menos <i class="fa fa-angle-up ml-2"></i></span>
+                  </button>
                   </p>
             </div>
             <div class="collapse text-left" id="extra-info-mesos">
@@ -403,9 +407,11 @@
               <p class="p-2 m-0 border-top">
                 <b>1GB</b> armazenamento</p>
                 <p class="p-2 m-0 border-top">
-                    <button class="btn btn-sm btn-light text-primary px-2"
+                    <button class="btn btn-sm btn-light text-primary px-2 btn-collapse collapsed"
                     data-toggle="collapse" data-target="#extra-info-termos" aria-expanded="false" aria-controls="collapseExample">
-                    Ver mais <i class="fa fa-angle-down ml-2"></i></button>
+                    <span class="ver-mais">Ver mais <i class="fa fa-angle-down ml-2"></i></span>
+                    <span class="ver-menos">Ver menos <i class="fa fa-angle-up ml-2"></i></span>
+                  </button>
                   </p>
                 </div>
     
@@ -446,9 +452,11 @@
               <p class="p-2 m-0 border-top">
                 <b>2GB</b> armazenamento</p>
                 <p class="p-2 m-0 border-top">
-                    <button class="btn btn-sm btn-light text-primary px-2"
+                    <button class="btn btn-sm btn-light text-primary px-2 btn-collapse collapsed"
                     data-toggle="collapse" data-target="#extra-info-ionos" aria-expanded="false" aria-controls="collapseExample">
-                    Ver mais <i class="fa fa-angle-down ml-2"></i></button>
+                    <span class="ver-mais">Ver mais <i class="fa fa-angle-down ml-2"></i></span>
+                    <span class="ver-menos">Ver menos <i class="fa fa-angle-up ml-2"></i></span>
+                  </button>
                   </p>
             </div>
             <div class="collapse text-left" id="extra-info-ionos">
@@ -474,7 +482,7 @@
         <div class="col-md-6 mx-auto text-center align-self-center">
           <p class="lead text-center text-light">Saiba mais sobre opções de planos com mais produtos, pageviews, armazenamento e mais de 50 aplicativos extras e serviços opcionais que variam desde consultoria de implantação à personalização de tema.</p>
           <a class="btn m-1 btn-light text-primary font-weight-bold btn-lg" href="#">Fale com um expert</a>
-          <strong class="text-dark">ou</strong>
+          <strong class="text-dark d-md-inline d-block">ou</strong>
           <a class="btn m-1 btn-light text-secondary font-weight-bold btn-lg" href="https://www.jn2.com.br/comece-seu-teste-gratis/"> Faça um teste grátis*</a>
         </div>
       </div>
@@ -531,14 +539,15 @@
               <h4 class="pb-3">Entre em contato e descubra como a JN2 e a Rede podem te ajudar a criar sua loja virtual.</h4>
               <form action="https://formspree.io/YOUREMAILHERE">
                 <div class="form-group">
-                  <label>Name</label>
-                  <input class="form-control"> </div>
+                  <label>Name *</label>
+                  <input class="form-control" type="text" required> 
+                </div>
                 <div class="form-group">
-                  <label>E-mail</label>
-                  <input class="form-control" type="text"> </div>
+                  <label>E-mail *</label>
+                  <input class="form-control" type="email" required> </div>
                 <div class="form-group">
-                  <label>Telefone</label>
-                  <input class="form-control" type="text"> </div>
+                  <label>Telefone *</label>
+                  <input class="form-control" type="text" required> </div>
                 <div class="form-group">
                   <label>Empresa</label>
                   <input type="text" class="form-control"> </div>
@@ -606,11 +615,11 @@
           </div>
         </div>
       </div>
-      <div class="row text-center mt-3">
+      <!-- <div class="row text-center mt-3">
         <div class="col-md-12">
           <a href="#" class="btn btn-outline-secondary">Ver mais perguntas</a>
         </div>
-      </div>
+      </div> -->
     </div>
   </div>
   <div class="py-5 bg-primary cover" style="	background-image: url(&quot;assets/img/bg-06.jpg&quot;);	background-position: top center;	background-size: cover;	background-repeat: no-repeat; padding-top:16%!important">
@@ -626,7 +635,7 @@
       </div>
     </div>
   </div>
-  <div class="py-5 bg-white text-secondary">
+  <div class="py-5 bg-light text-secondary">
     <div class="container">
       
       <div class="row">
@@ -634,33 +643,35 @@
             <div class="row">
                 <div class="col col-md-1 align-self-center">
                   <a href="https://www.facebook.com" target="_blank">
-                    <i class="fa fa-fw fa-linkedin"></i>
+                    <i class="fa fa-fw fa-linkedin fa-2x"></i>
                   </a>
                 </div>
                 <div class="col col-md-1 align-self-center">
                   <a href="https://www.facebook.com" target="_blank">
-                    <i class="fa fa-fw fa-facebook"></i>
+                    <i class="fa fa-fw fa-facebook fa-2x"></i>
                   </a>
                 </div>
                 <div class="col col-md-1 align-self-center">
                   <a href="https://www.facebook.com" target="_blank">
-                    <i class="fa fa-fw fa-instagram"></i>
+                    <i class="fa fa-fw fa-instagram fa-2x"></i>
                   </a>
                 </div>
                 <div class="col col-md-1 align-self-center">
                   <a href="https://twitter.com" target="_blank">
-                    <i class="fa fa-fw fa-twitter"></i>
+                    <i class="fa fa-fw fa-twitter fa-2x"></i>
                   </a>
                 </div>
                 <div class="col col-md-1 align-self-center">
                   <a href="https://www.instagram.com" target="_blank">
-                    <i class="fa fa-fw fa-youtube"></i>
+                    <i class="fa fa-fw fa-youtube fa-2x"></i>
                   </a>
                 </div>
               </div>
         </div>
         <div class="col-md-6 mt-3 text-md-right">
           <p>© Copyright 2018 JN2 - Todos os direitos reservados.</p>
+          <small class="text-muted">*O teste grátis sugerido nesta página refere-se apenas à plataforma de e-commerce JN2 e não aos servços do parceiro.</small>
+          
         </div>
       </div>
     </div>

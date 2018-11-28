@@ -22,7 +22,7 @@ $enable-print-styles:       true;
 $theme-colors: (
   primary: #FF370A,
   secondary: #7e24e6,
-  light: #efefef,
+  light: #f4f4f4,
   dark: #151515,
   info: #ccc,
   success: #28a745,
@@ -346,5 +346,42 @@ html,body {
     padding: 11px;
   &:hover{
     bottom: 20px;
+  }
+}
+
+
+body::-webkit-scrollbar {
+    width: 0.75em;
+}
+ 
+body::-webkit-scrollbar-track {
+   background-color: #f9f9f9
+}
+ 
+body::-webkit-scrollbar-thumb {
+  background-color: #6A29E4;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+
+
+
+#planos .card{
+  .btn-collapse{
+    .ver-menos{
+      display:block;
+    }
+    .ver-mais{
+      display:none;
+    }
+    &.collapsed{
+      .ver-menos{ 
+        display:none;
+      }
+      .ver-mais{
+				display:block;
+      }
+      
+    }
   }
 }
